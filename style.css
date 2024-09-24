@@ -80,3 +80,27 @@ main {
 h3{
     font-size: 15px;
 }
+
+input {
+    background-color: rgba(15, 15, 15, 0.705);
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 28px;
+}
+input::placeholder{
+    color: rgb(190, 188, 188);
+}
+#btn-go{
+    width: 190px;
+    border-radius: 4px;
+    font-size: 23px;
+    font-weight: bolder;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 17px;
+    margin-left: 5px;
+}
