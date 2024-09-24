@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#logo{
+    width: 150px;
+}
+select{
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    padding: 3px;
+    font-weight: bolder;
+    width: 140px;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+#btn-entrar{
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 7px;
+    width: 70px;
+    height: 33px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
