@@ -7,6 +7,7 @@
 
 body {
     margin: 0px;
+    background-color: #000000;
 }
 #container{
     background-image: linear-gradient(103.24deg, rgba(0, 4, 14, 0.829) 23.83%, rgba(0,8,29,0.3) 96.1%), url("https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/BR-pt-20240916-TRIFECTA-perspective_c2bebe15-295b-4009-9a1c-893d9f501956_large.jpg");
@@ -103,4 +104,12 @@ input::placeholder{
     border: none;
     padding: 17px;
     margin-left: 5px;
+    cursor: pointer;
+}
+section{
+    width: 70%;
+    height: 600px;
+    background-color: red;
+    margin: auto;
+    margin-top: 211px;
 }
