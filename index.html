@@ -5,23 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header id="container">
 
-        <div>
-            <img src="imagens/logo.png" alt="Logo da NetFlix" id="logo">
+        <div id="header">
+    
+            <div>
+                <img src="imagens/logo.png" alt="Logo da NetFlix" id="logo">
+            </div>
+    
+            <nav>
+                <select>
+                    <option value="pt-br">Português</option>
+                    <option value="en-us">English</option>
+                </select>
+                <button id="btn-entrar">Entrar</button>
+            </nav>
         </div>
 
-        <nav>
-            <select>
-                <option value="pt-br">Português</option>
-                <option value="pt-br">English</option>
-            </select>
-            <button id="btn-entrar">Entrar</button>
-        </nav>
+        <main>
+            <h1 id="title-main">Filmes, séries e muito<br> mais, sem limites</h1>
+            <h2 id="sub-title-main">A partir de R$ 20,90. Cancele quando quiser.</h2>
+            <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+            <div>
+                <form action="">
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" placeholder="Email" size="70">
+                </form>
+                <button>Vamos lá ></button>
+            </div>
+        </main>
     </header>
-   
+    
 
 </body>
 </html>

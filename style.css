@@ -1,30 +1,52 @@
-body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+:root {
+    --fonteprincipal: "Spicy Rice", serif;
 }
-#container {
+
+body {
+    margin: 0px;
+}
+#container{
+    background-image: linear-gradient(103.24deg, rgba(0, 4, 14, 0.829) 23.83%, rgba(0,8,29,0.3) 96.1%), url("https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/BR-pt-20240916-TRIFECTA-perspective_c2bebe15-295b-4009-9a1c-893d9f501956_large.jpg");
+    height: 920px;
+    background-size: cover;
+
+
+}
+
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0,8,29,0.3) 96.1%), url("https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/BR-pt-20240916-TRIFECTA-perspective_c2bebe15-295b-4009-9a1c-893d9f501956_large.jpg");
 }
-#imagem-de-fundo{
-    width: 100%;
-    background-size: cover;
- 
-}
+
 #logo{
     width: 150px;
+    margin-left: 350px;
+    margin-top: 26px;
+
 }
+nav{
+    margin-right: 350px;
+    margin-top: 26px;
+}
+
 select{
     background-color: rgba(0, 0, 0, 0.63);
     color: white;
-    padding: 3px;
-    font-weight: bolder;
+    padding: 5px;
+    font-weight: 700px;
+    font-size: 17px;
     width: 140px;
     text-align: center;
-    border: 1px solid grey;
-    border-radius: 3px;
+    border: 2px solid rgb(255, 253, 253);
+    height: 40px;
+    border-radius: 6px;
+    margin-right: 8px;
 }
+
 #btn-entrar{
     background-color: red;
     border: none;
@@ -36,4 +58,25 @@ select{
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 0px;
+    margin-top: 280px;
+    text-align: center;
+}
+#title-main{
+    font-size: 60px;
+
+}
+#sub-title-main{
+    font-size: 20px;
+
+    margin-top: -10px;
+}
+h3{
+    font-size: 15px;
 }
